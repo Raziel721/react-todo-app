@@ -1,5 +1,5 @@
 import { useState } from "react";
-import uuid from "uuid";
+import { v4 as uuid } from "uuid";
 function TodoForm({ addTodo }) {
   const [todo, setTodo] = useState({
     id: "",
